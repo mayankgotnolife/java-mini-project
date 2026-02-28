@@ -1,6 +1,4 @@
-// Tic Tac Toe Game
-// A classic 3x3 grid game where two players take turns marking spaces
-// First player to get 3 in a row (horizontally, vertically, or diagonally) wins
+
 
 import java.util.Scanner;
 
