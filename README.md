@@ -6,9 +6,9 @@ A collection of Java mini projects for learning and practice. Each project demon
 
 | Project | Game Name | Description | Folder |
 |---------|-----------|-------------|--------|
-| **miniProject0** | Tic Tac Toe | Two-player classic game with 3x3 grid | `miniProject0/` |
-| **miniProject1** | Advanced Memory Game | Multi-difficulty memory card matching game | `miniProject1/` |
-| **miniProject2** | Library Management System | Switch-based book and student management system | `miniProject2/` |
+| [**miniProject0**](miniProject0/) | Tic Tac Toe | Two-player classic game with 3x3 grid | [miniProject0/](miniProject0/) |
+| [**miniProject1**](miniProject1/) | Advanced Memory Game | Multi-difficulty memory card matching game | [miniProject1/](miniProject1/) |
+| [**miniProject2**](miniProject2/) | Library Management System | Switch-based book and student management system | [miniProject2/](miniProject2/) |
 
 ## Quick Start
 
