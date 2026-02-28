@@ -5,7 +5,7 @@
 import java.util.Scanner;
 
 // Class
-public class Student {
+public class student {
 
     // Class member variables
     String studentName;
@@ -19,7 +19,7 @@ public class Student {
     Scanner input = new Scanner(System.in);
 
     // Constructor
-    public Student()
+    public student()
     {
         // Print statement
         System.out.println("Enter Student Name:");
