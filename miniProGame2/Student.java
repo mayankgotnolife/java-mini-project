@@ -1,7 +1,3 @@
-// Java Program to Illustrate Student Class
-// to take Input from the student and related Information
-
-// Importing required classes
 import java.util.Scanner;
 
 // Class

@@ -1,8 +1,3 @@
-// Java Program to Illustrate students Class
-// To Do all the Operations related to students:
-// add Students,check-in books,check out books,ValidStudent
-
-// Importing required classes
 import java.util.Scanner;
 
 // Class

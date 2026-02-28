@@ -1,53 +1,24 @@
-# Library Management System Using Switch Statement
+# Java Mini Projects
 
-A Java-based library management application that demonstrates the use of switch statements for menu-driven operations. This system allows librarians to manage books and track student borrowing activities.
+A collection of small Java projects for learning and practice.
 
-## Features
+## Projects
 
-- **Book Management**
-  - Add new books to the library
-  - Search books by serial number
-  - Search books by author name
-  - View all available books
-  - Update book quantities
+| Project | Description | Folder |
+|---------|-------------|--------|
+| [miniProGame1](miniProGame1/) | Mini Memory Game - Console-based card matching game | `miniProGame1/` |
+| [miniProGame2](miniProGame2/) | Library Management System - Switch statement-based book and student management | `miniProGame2/` |
 
-- **Student Management**
-  - Register students
-  - View all registered students
-  - Check out books (limit 3 per student)
-  - Check in books
+## How to Run Each Project
 
-## Class Structure
+Each project has its own `README.md` with compile and run instructions. Navigate to the project folder and follow the steps there.
 
-- **`Library.java`** - Main application class with menu-driven interface
-- **`book.java`** - Individual book class with book details
-- **`books.java`** - Book collection management and operations
-- **`Student.java`** - Individual student class with student details
-- **`students.java`** - Student collection management and operations
-
-## How to Compile and Run
-
-### Compilation
+### Example:
 ```bash
+cd miniProGame2
 javac *.java
-```
-
-### Run the Application
-```bash
 java Library
 ```
-
-## Menu Options
-
-1. Add Book
-2. Upgrade Book Quantity
-3. Search Books (by Serial No or Author Name)
-4. Show All Books
-5. Add Student
-6. Show All Students
-7. Check Out Book
-8. Check In Book
-0. Exit
 
 ## Requirements
 
@@ -55,4 +26,4 @@ java Library
 
 ## Author
 
-Created as a mini project to demonstrate Java switch statement usage and object-oriented programming concepts.
+Created as mini projects to demonstrate Java programming concepts and object-oriented design principles.
