@@ -6,7 +6,8 @@ A collection of small Java projects for learning and practice.
 
 | Project | Description | Folder |
 |---------|-------------|--------|
-| [miniProGame1](miniProGame1/) | Mini Memory Game - Console-based card matching game | `miniProGame1/` |
+| [miniProGame0](miniProGame0/) | Simple Memory Game - Basic card matching game (4 pairs) | `miniProGame0/` |
+| [miniProGame1](miniProGame1/) | Advanced Memory Game - Console-based card matching with difficulty levels | `miniProGame1/` |
 | [miniProGame2](miniProGame2/) | Library Management System - Switch statement-based book and student management | `miniProGame2/` |
 
 ## How to Run Each Project
