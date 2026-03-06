@@ -1,0 +1,21 @@
+# Compiled class files
+*.class
+
+# Backup files
+*.bak
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output directories
+/out/
+/bin/
+/build/

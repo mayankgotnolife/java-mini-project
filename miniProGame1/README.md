@@ -1,45 +1,103 @@
-# Mini Memory Game (Java)
+# Mini Memory Game
 
-This is a simple **console-based memory matching game** written in Java.
+A console-based card matching memory game built with Java. Test your memory by flipping cards and finding matching pairs!
 
-You play by flipping two cards at a time and trying to find all matching pairs.
+## Game Description
+
+This is an interactive memory card game where players flip cards to find matching pairs. The game features different difficulty levels with varying board sizes and includes move tracking to challenge yourself.
+
+## Features
+
+- **Multiple Difficulty Levels**
+  - Easy: 4x4 board (8 pairs)
+  - Medium: 4x6 board (12 pairs)
+  - Hard: 6x6 board (18 pairs)
+
+- **Game Statistics**
+  - Track number of moves made
+  - Count matched pairs
+  - Final score display
+
+- **User-Friendly Interface**
+  - Clear board visualization with card positions
+  - Intuitive menu system
+  - Instant feedback on matches
+
+## Class Structure
+
+- **`MemoryGame.java`** - Main driver class with game menu and flow control
+- **`GameBoard.java`** - Game logic, board management, and card matching
+- **`Card.java`** - Individual card representation with flip and matching states
+
+## How to Compile and Run
+
+### Compilation
+```bash
+javac *.java
+```
+
+### Run the Game
+```bash
+java MemoryGame
+```
+
+## How to Play
+
+1. **Start the Game**: Run `java MemoryGame`
+2. **Select Difficulty**: Choose from Easy, Medium, or Hard
+3. **View Board**: The card positions will be displayed (numbered 1 to total cards)
+4. **Play**: 
+   - Select two card positions to flip
+   - If they match, they stay flipped (marked with ✓)
+   - If they don't match, they flip back after 2 seconds
+   - Continue until all pairs are matched
+5. **Win**: Match all pairs to win the game!
+
+## Example Gameplay
+
+```
+Card Positions:
+  [ 1] [ 2] [ 3] [ 4]
+  [ 5] [ 6] [ 7] [ 8]
+  [ 9] [10] [11] [12]
+  [13] [14] [15] [16]
+
+  ?  ?  ?  ?
+  ?  ?  ?  ?
+  ?  ?  ?  ?
+  ?  ?  ?  ?
+
+Matched: 0/8
+Moves: 0
+─────────────────────────────────────────
+Enter first card position (1-16): 1
+Enter second card position (1-16): 9
+```
+
+## Card Display Symbols
+
+- `?` - Unrevealed card
+- `Number` - Revealed card (shows the pair number)
+- `✓` - Matched card (pair found)
 
 ## Game Rules
 
-- The board contains **4 pairs of cards**: `A`, `B`, `C`, and `D`.
-- At the start, all cards are **hidden**.
-- On each turn:
-  - You choose the **index** of the first card to flip.
-  - You choose the **index** of the second card to flip.
-  - If the two cards match, they **stay face up** and you gain a pair.
-  - If they do not match, they are **flipped back face down**.
-- The game ends when you have found **all 4 pairs**.
+- Each card can only be selected once per turn
+- Two cards must be selected each turn
+- Matching pairs stay revealed
+- Non-matching cards flip back after 2 seconds
+- Game ends when all pairs are matched
 
-## How to Run
+## Requirements
 
-### Prerequisites
+- Java Development Kit (JDK) 8 or higher
 
-- Java Development Kit (JDK) 8 or later installed.
-- `javac` and `java` available in your terminal (added to `PATH`).
+## Tips for Winning
 
-### Compile
+- Try to remember the positions of cards you've seen
+- Look for patterns in card placement
+- Complete the game with minimum moves for a better score
 
-From the project directory:
+## Author
 
-```bash
-javac miniProGame1.java
-```
-
-This will generate a `miniProGame1.class` file.
-
-### Run
-
-```bash
-java miniProGame1
-```
-
-Follow the prompts in the console to enter the indices of the cards you want to flip.
-
-## Files
-
-- `miniProGame1.java` — main source file containing the game logic.
+Created as a mini project to demonstrate Java programming concepts including object-oriented design, game logic, and user interaction.

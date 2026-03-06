@@ -1,11 +1,7 @@
-// Java Program to Illustrate Student Class
-// to take Input from the student and related Information
-
-// Importing required classes
 import java.util.Scanner;
 
 // Class
-public class Student {
+public class student {
 
     // Class member variables
     String studentName;
@@ -19,7 +15,7 @@ public class Student {
     Scanner input = new Scanner(System.in);
 
     // Constructor
-    public Student()
+    public student()
     {
         // Print statement
         System.out.println("Enter Student Name:");

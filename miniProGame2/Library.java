@@ -1,10 +1,6 @@
-// Java Program to Illustrate Application CLass
-// To Create The Menu For the Program
 
-// Importing required classes
 import java.util.Scanner;
 
-// Class
 public class Library {
 
     // Main driver method
@@ -16,7 +12,7 @@ public class Library {
 
         // Displaying menu
         System.out.println(
-            "********************Welcome to the Mayank Library!********************");
+            "********************Welcome to the May-yank Library!********************");
         System.out.println(
             "                  Select From The Following Options:               ");
         System.out.println(
@@ -81,7 +77,7 @@ public class Library {
 
                 // Case
             case 5:
-                Student s = new Student();
+                student s = new student();
                 obStudent.addStudent(s);
                 break;
 

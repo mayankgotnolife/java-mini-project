@@ -1,8 +1,3 @@
-// Java Program to Illustrate students Class
-// To Do all the Operations related to students:
-// add Students,check-in books,check out books,ValidStudent
-
-// Importing required classes
 import java.util.Scanner;
 
 // Class
@@ -10,13 +5,13 @@ public class students {
 
     // Creating objects of Scanner and students class
     Scanner input = new Scanner(System.in);
-    Student theStudents[] = new Student[50];
+    student theStudents[] = new student[50];
 
     public static int count = 0;
 
     // Method 1
     // To add books
-    public void addStudent(Student s)
+    public void addStudent(student s)
     {
         for (int i = 0; i < count; i++) {
 
@@ -126,7 +121,7 @@ public class students {
             System.out.println(
                 "S.No\t\t\tBook Name\t\t\tAuthor Name");
 
-            Student s = theStudents[studentIndex];
+            student s = theStudents[studentIndex];
 
             for (int i = 0; i < s.booksCount; i++) {
 
