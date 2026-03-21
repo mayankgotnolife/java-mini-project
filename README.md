@@ -34,6 +34,15 @@ java-mini-project/
     ├── quiz/models/Question.java
     ├── quiz/services/QuizService.java
     └── README.md
+
+├── 📂 miniProGame4/                ← Inventory Management System
+    ├── README.md
+    ├── src/
+    │   ├── Main.java
+    │   └── com/inventory/
+    │       ├── Inventory.java
+    │       ├── InventorySystem.java
+    │       └── Item.java
 ```
 
 ---
@@ -46,6 +55,7 @@ java-mini-project/
 | 1 | [miniProGame1](miniProGame1/) | 🧩 Memory Game | Console-based card matching game | Arrays, Loops, Game Logic |
 | 2 | [miniProGame2](miniProGame2/) | 📚 Library Management | Book & student management system | Switch Statement, OOP, Data Management |
 | 3 | [miniProGame3](miniProGame3/) | 🧠 Online Quiz App | MCQ quiz with score tracking | Interface, Model, Service, Exception Handling |
+| 4 | [miniProGame4](miniProGame4/) | 🛒 Inventory Management System | Add/Remove/View items with OOP | Packages, Classes, Encapsulation, Console Menus |
 
 ---
 
@@ -57,7 +67,8 @@ java-mini-project/
 ║  miniProGame1  → Arrays, loops, card matching logic         ║
 ║  miniProGame2  → Switch statements, OOP basics              ║
 ║  miniProGame3  → Interfaces, Models, Services, OOP          ║
-║  Next up...    → More advanced Java concepts                ║
+║  miniProGame4  → Packages, Encapsulation, Inventory Management ║
+║  Next up...    → Advanced Data Structures & Algorithms      ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
