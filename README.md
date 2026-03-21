@@ -29,12 +29,12 @@ java-mini-project/
 │   └── README.md
 │
 └── 📂 miniProGame3/                ← Online Java Quiz App
-    ├── Main.java
-    ├── quiz/interfaces/Quiz.java
-    ├── quiz/models/Question.java
-    ├── quiz/services/QuizService.java
-    └── README.md
-
+│    ├── Main.java
+│    ├── quiz/interfaces/Quiz.java
+│    ├── quiz/models/Question.java
+│    ├── quiz/services/QuizService.java
+│    └── README.md
+│
 ├── 📂 miniProGame4/                ← Inventory Management System
     ├── README.md
     ├── src/
