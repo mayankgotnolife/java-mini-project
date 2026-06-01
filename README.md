@@ -36,13 +36,22 @@ java-mini-project/
 │    └── README.md
 │
 ├── 📂 miniProGame4/                ← Inventory Management System
+│   ├── README.md
+│   ├── src/
+│   │   ├── Main.java
+│   │   └── com/inventory/
+│   │       ├── Inventory.java
+│   │       ├── InventorySystem.java
+│   │       └── Item.java
+│
+└── 📂 miniProject5/                ← Movie Ticket Booking System
     ├── README.md
-    ├── src/
-    │   ├── Main.java
-    │   └── com/inventory/
-    │       ├── Inventory.java
-    │       ├── InventorySystem.java
-    │       └── Item.java
+    └── src/com/movieticketbooking/
+        ├── Booking.java
+        ├── Movie.java
+        ├── MovieTicketBookingSystem.java
+        ├── Showtime.java
+        └── Theater.java
 ```
 
 ---
@@ -56,6 +65,7 @@ java-mini-project/
 | 2 | [miniProGame2](miniProGame2/) | 📚 Library Management | Book & student management system | Switch Statement, OOP, Data Management |
 | 3 | [miniProGame3](miniProGame3/) | 🧠 Online Quiz App | MCQ quiz with score tracking | Interface, Model, Service, Exception Handling |
 | 4 | [miniProGame4](miniProGame4/) | 🛒 Inventory Management System | Add/Remove/View items with OOP | Packages, Classes, Encapsulation, Console Menus |
+| 5 | [miniProject5](miniProject5/) | 🎬 Movie Ticket Booking System | Book movie showtimes in a console app | OOP, Concurrent Collections, Search & Sort |
 
 ---
 
@@ -68,6 +78,7 @@ java-mini-project/
 ║  miniProGame2  → Switch statements, OOP basics              ║
 ║  miniProGame3  → Interfaces, Models, Services, OOP          ║
 ║  miniProGame4  → Packages, Encapsulation, Inventory Management ║
+║  miniProject5  → Concurrent Collections, Booking Workflow, OOP ║
 ║  Next up...    → Advanced Data Structures & Algorithms      ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
